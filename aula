@@ -1,0 +1,25 @@
+<?php
+
+class Bicicleta
+{
+    public $marca;
+    public $modelo;
+    public $cor;
+    public $ano;
+    public $marchas;
+    public $terreno;
+
+
+    public function pedalar()
+    {
+        echo "Bicicleta {$this->marca} {$this->modelo} {$this->cor} está pedalando <br>";
+    }
+
+}
+
+#objeto da classe 
+
+$caloi10 = new Bicicleta();
+$caloi10-> marca = 'Caloi';
+$caloi10-> cor = 'Rosa';
+
